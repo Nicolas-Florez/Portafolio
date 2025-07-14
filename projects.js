@@ -1,66 +1,48 @@
 // Projects data
+// Projects data
 const projects = [
     {
-        id: 1,
-        title: "Sistema de Gestión Universitaria",
-        description: "Aplicación web completa para la gestión de estudiantes, profesores y cursos universitarios. Incluye autenticación, dashboard administrativo y reportes.",
-        technologies: ["JavaScript", "Node.js", "Express", "MongoDB", "Bootstrap"],
-        icon: "fas fa-graduation-cap",
-        github: "https://github.com/Nicolas-Florez/sistema-universitario",
-        demo: null,
-        featured: true
+      id: 1,
+      title: "Luxtime - Relojes de Lujo",
+      description: "Landing page para marca ficticia de relojes de lujo. Incluye catálogo interactivo, filtros por material y precio, vista detallada con zoom y carrusel de productos relacionados.",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      icon: "fas fa-clock",
+      github: "https://github.com/Nicolas-Florez/Project_HTML_CSS_FLOREZ_NICOLAS",
+      demo: null,
+      featured: true
     },
     {
-        id: 2,
-        title: "E-commerce Responsive",
-        description: "Tienda online moderna con carrito de compras, pasarela de pagos y panel de administración. Optimizada para dispositivos móviles.",
-        technologies: ["React", "JavaScript", "CSS3", "PayPal API"],
-        icon: "fas fa-shopping-cart",
-        github: "https://github.com/Nicolas-Florez/ecommerce-react",
-        demo: "https://ecommerce-demo.netlify.app",
-        featured: true
+      id: 2,
+      title: "MotivaApp - Plataforma Motivacional",
+      description: "Página motivacional que muestra frases diarias según el calendario. Incluye juegos didácticos como ruleta de frases y sistema de recompensas con logros y rachas desbloqueables.",
+      technologies: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+      icon: "fas fa-heart",
+      github: "https://github.com/Nicolas-Florez/Oracundario-Nicolas-Florez",
+      demo: "https://nicolas-florez.github.io/Oracundario-Nicolas-Florez/",
+      featured: true
     },
     {
-        id: 3,
-        title: "API REST con Java",
-        description: "API robusta para gestión de inventarios con Spring Boot, documentación con Swagger y testing automatizado.",
-        technologies: ["Java", "Spring Boot", "MySQL", "Swagger", "JUnit"],
-        icon: "fas fa-server",
-        github: "https://github.com/Nicolas-Florez/inventory-api",
-        demo: null,
-        featured: false
+      id: 3,
+      title: "Mentorium - App Académica",
+      description: "Aplicación para conectar estudiantes con mentores/profesores. Permite agendar asesorías, gestionar materias y evaluar sesiones. Implementa lógica de base de datos y modelo relacional completo.",
+      technologies: ["Java", "Spring Boot", "MySQL"],
+      icon: "fas fa-user-graduate",
+      github: "",
+      demo: null,
+      featured: true
     },
     {
-        id: 4,
-        title: "Dashboard Analítico",
-        description: "Panel de control interactivo con gráficos en tiempo real, métricas de performance y reportes exportables.",
-        technologies: ["Python", "Django", "Chart.js", "PostgreSQL"],
-        icon: "fas fa-chart-line",
-        github: "https://github.com/Nicolas-Florez/analytics-dashboard",
-        demo: "https://analytics-demo.herokuapp.com",
-        featured: true
-    },
-    {
-        id: 5,
-        title: "App de Tareas Colaborativas",
-        description: "Aplicación para gestión de proyectos en equipo con asignación de tareas, notificaciones y seguimiento de progreso.",
-        technologies: ["JavaScript", "Vue.js", "Firebase", "Vuetify"],
-        icon: "fas fa-tasks",
-        github: "https://github.com/Nicolas-Florez/task-manager",
-        demo: "https://task-manager-demo.firebase.app",
-        featured: false
-    },
-    {
-        id: 6,
-        title: "Sistema de Reservas",
-        description: "Plataforma web para reservas de servicios con calendario interactivo, notificaciones por email y gestión de disponibilidad.",
-        technologies: ["PHP", "Laravel", "MySQL", "Bootstrap", "FullCalendar"],
-        icon: "fas fa-calendar-alt",
-        github: "https://github.com/Nicolas-Florez/booking-system",
-        demo: null,
-        featured: false
+      id: 4,
+      title: "Buscador de Películas",
+      description: "Aplicación web que permite buscar películas usando la API de TMDB. Muestra pósters, sinopsis, trailers y filtros por género, año y calificación.",
+      technologies: ["JavaScript", "HTML", "CSS", "TMDB API"],
+      icon: "fas fa-film",
+      github: "https://github.com/Nicolas-Florez/searchMovies_Florez_Nicolas",
+      demo: null,
+      featured: true
     }
-];
+  ];
+  
 
 // Export projects for use in other files
 if (typeof module !== 'undefined' && module.exports) {
