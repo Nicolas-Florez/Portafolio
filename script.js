@@ -16,12 +16,10 @@ function initializeApp() {
     // Loading screen
     const loadingScreen = document.getElementById('loading-screen');
     
-    // Hide loading screen after page loads
-    window.addEventListener('load', () => {
-        setTimeout(() => {
-            loadingScreen.classList.add('hidden');
-        }, 1000);
-    });
+    // Hide loading screen immediately
+    setTimeout(() => {
+        loadingScreen.classList.add('hidden');
+    }, 300);
 }
 
 // Theme management
@@ -384,14 +382,8 @@ window.addEventListener('scroll', debounce(() => {
 
 // Preload critical resources
 function preloadResources() {
-    const criticalImages = [
-        'https://via.placeholder.com/150x150/7b5bff/ffffff?text=NF'
-    ];
-    
-    criticalImages.forEach(src => {
-        const img = new Image();
-        img.src = src;
-    });
+    // Resources are loaded via CDN in HTML, no need to preload
+    console.log('Resources loaded successfully');
 }
 
 // Initialize resource preloading
