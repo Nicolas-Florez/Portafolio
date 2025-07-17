@@ -25,7 +25,7 @@ const projects = [
       id: 3,
       title: "Mentorium - App Académica",
       description: "Aplicación para conectar estudiantes con mentores/profesores. Permite agendar asesorías, gestionar materias y evaluar sesiones. Implementa lógica de base de datos y modelo relacional completo.",
-      technologies: ["Java", "Spring Boot", "MySQL"],
+      technologies: ["Java", "React", "MySQL"],
       icon: "fas fa-user-graduate",
       github: "",
       demo: null,
