@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Nicolás Florez Duarte | Portafolio</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" href="fondo.jpeg" />
+  <link rel="icon" type="image/png" href="perfil.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
@@ -25,7 +25,8 @@
     <li><a href="#inicio">Inicio</a></li>
     <li><a href="#sobre-mi">Sobre mí</a></li>
     <li><a href="#portafolio">Portafolio</a></li>
-    <li><a href="#blog">Blog</a></li>
+    <li><a href="#educacion">Educación</a></li>
+    <li><a href="#servicios">Servicios</a></li>
     <li><a href="#contacto">Contacto</a></li>
   </ul>
 </nav>
@@ -41,76 +42,438 @@
         <a href="#contacto" class="btn"><i class="fas fa-paper-plane"></i> Contáctame</a>
       </div>
       <div class="hero-img">
-        <img src="perfil.png" alt="Foto de Nicolás" />
+        <img src="fondo.jpeg" alt="Foto de Nicolás" />
       </div>
     </section>
 
     <section id="sobre-mi">
       <h2><i class="fas fa-user"></i> Sobre mí</h2>
-      <p>💡 Soy un estudiante de Ingeniería de Sistemas con experiencia en desarrollo web y telecomunicaciones. Me encanta aprender nuevas tecnologías y aplicarlas en proyectos reales.<br>Habilidades en <b>liderazgo</b> 🧑‍💼, <b>comunicación</b> 🗣️, <b>toma de decisiones</b> 🧠, <b>trabajo en equipo</b> 🤝 y <b>pensamiento estratégico</b> 🎯.</p>
-      <ul>
-        <li><strong>Lenguajes de Programación:</strong> <span title="Java">☕</span> Java, <span title="JavaScript">🟨</span> JS, <span title="C++">💻</span> C++, <span title="Python">🐍</span> Python</li>
-        <li><strong>Tecnologías:</strong> <span title="Node.js"><i class="fab fa-node-js"></i></span> Node.js, <span title="React"><i class="fab fa-react"></i></span> React, <span title="Bootstrap"><i class="fab fa-bootstrap"></i></span> Bootstrap, JavaFX, Java Swing</li>
-        <li><strong>Idiomas:</strong> <span title="Español">🇪🇸</span> Español, <span title="Inglés">🇬🇧</span> Inglés</li>
-      </ul>
+      
+      <div class="about-content-wrapper">
+        <div class="about-intro">
+          <div class="intro-icon">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="intro-text">Con una pasión innegable por la tecnología y un compromiso inquebrantable con la excelencia, busco constantemente retos que me permitan crecer profesionalmente y contribuir significativamente al éxito de cualquier equipo o empresa. Mi enfoque centrado en el cliente y mi capacidad de adaptación rápida a nuevas situaciones me convierten en un activo valioso en entornos dinámicos y exigentes. Estoy deseoso de aplicar mis habilidades y experiencia para superar cualquier obstáculo y alcanzar objetivos excepcionales en cada proyecto.</p>
+        </div>
+        
+        <div class="personal-info">
+          <div class="personal-info-header">
+            <i class="fas fa-info-circle"></i>
+            <h3>Información Personal</h3>
+          </div>
+          <div class="info-grid">
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-user-tag"></i></div>
+              <div class="info-content">
+                <span class="info-label">Nombre</span>
+                <span class="info-value">Nicolas Oswaldo Florez Duarte</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-birthday-cake"></i></div>
+              <div class="info-content">
+                <span class="info-label">Cumpleaños</span>
+                <span class="info-value">27 de mayo de 2006</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-calendar-alt"></i></div>
+              <div class="info-content">
+                <span class="info-label">Edad</span>
+                <span class="info-value"><span id="edad">19</span> años</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fab fa-whatsapp"></i></div>
+              <div class="info-content">
+                <span class="info-label">Celular</span>
+                <span class="info-value"><a href="https://wa.me/573208371666" target="_blank">+57 3208371666</a></span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-envelope"></i></div>
+              <div class="info-content">
+                <span class="info-label">Email</span>
+                <span class="info-value"><a href="mailto:nicolas.ravems8@gmail.com">nicolas.ravems8@gmail.com</a></span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="info-content">
+                <span class="info-label">Ciudad</span>
+                <span class="info-value">Cucuta, Norte de Santander</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-graduation-cap"></i></div>
+              <div class="info-content">
+                <span class="info-label">Grado</span>
+                <span class="info-value">Técnico - Próximamente Ingeniero de Sistemas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-section">
+        <h3><i class="fas fa-code"></i> Dominio de Herramientas</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fab fa-java skill-icon"></i>
+            </div>
+            <div class="skill-content">
+              <div class="skill-header">
+                <span class="skill-name">Java</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-percent="90" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fab fa-python skill-icon"></i>
+            </div>
+            <div class="skill-content">
+              <div class="skill-header">
+                <span class="skill-name">Python</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-percent="90" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fab fa-js-square skill-icon"></i>
+            </div>
+            <div class="skill-content">
+              <div class="skill-header">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-percent="80" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fab fa-html5 skill-icon"></i>
+            </div>
+            <div class="skill-content">
+              <div class="skill-header">
+                <span class="skill-name">HTML</span>
+                <span class="skill-percent">100%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-percent="100" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fab fa-css3-alt skill-icon"></i>
+            </div>
+            <div class="skill-content">
+              <div class="skill-header">
+                <span class="skill-name">CSS</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-percent="90" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fas fa-database skill-icon"></i>
+            </div>
+            <div class="skill-content">
+              <div class="skill-header">
+                <span class="skill-name">MySQL</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-percent="90" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fas fa-database skill-icon"></i>
+            </div>
+            <div class="skill-content">
+              <div class="skill-header">
+                <span class="skill-name">PostgreSQL</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-percent="85" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fas fa-leaf skill-icon"></i>
+            </div>
+            <div class="skill-content">
+              <div class="skill-header">
+                <span class="skill-name">Spring Boot</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-percent="90" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fab fa-docker skill-icon"></i>
+            </div>
+            <div class="skill-content">
+              <div class="skill-header">
+                <span class="skill-name">Docker</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-percent="80" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tech-badges">
+        <h3><i class="fas fa-tags"></i> Lenguajes y Herramientas</h3>
+        <div class="badges-container">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" class="tech-badge-img" />
+          <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white" alt="Java" class="tech-badge-img" />
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" class="tech-badge-img" />
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" class="tech-badge-img" />
+          <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" class="tech-badge-img" />
+          <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" class="tech-badge-img" />
+          <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" class="tech-badge-img" />
+          <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white" alt="Spring Boot" class="tech-badge-img" />
+          <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React" class="tech-badge-img" />
+          <img src="https://img.shields.io/badge/JavaFX-000000?style=flat&logo=oracle&logoColor=white" alt="JavaFX" class="tech-badge-img" />
+          <img src="https://img.shields.io/badge/Java%20Swing-5382A1?style=flat&logo=java&logoColor=white" alt="Java Swing" class="tech-badge-img" />
+          <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL" class="tech-badge-img" />
+          <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" class="tech-badge-img" />
+          <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" class="tech-badge-img" />
+        </div>
+      </div>
+
+      <div class="experience-description">
+        <p>Con una sólida experiencia en diversas tecnologías, estoy preparado para aportar un valor significativo a cualquier proyecto. Desde el desarrollo ágil de aplicaciones empresariales hasta la creación y el uso eficiente de API, mis habilidades abarcan un amplio catálogo. Domino lenguajes de programación como Java y Python, también el desarrollo de aplicaciones web con Spring Boot. Además, poseo un conocimiento bastante amplio de bases de datos relacionales como MySQL y PostgreSQL. Asimismo, mi experiencia con GitHub y Docker garantiza flujos de trabajo colaborativos y una implementación fluida. Estoy deseando aportar mi experiencia y pasión por la tecnología a cualquier reto que se me presente.</p>
+      </div>
     </section>
 
     <section id="portafolio">
-      <h2><i class="fas fa-briefcase"></i> Proyectos Destacados</h2>
+      <h2><i class="fas fa-briefcase"></i> Proyectos</h2>
       <div class="grid">
         <div class="card">
-          <h3><i class="fas fa-clock"></i> Luxtime - Relojes de Lujo</h3>
-          <p>⌚ Landing page para marca ficticia de relojes de lujo. Incluye catálogo interactivo, filtros por material y precio, vista detallada con zoom y carrusel de productos relacionados.</p>
+          <h3><i class="fas fa-project-diagram"></i> Generador de Autómatas de Pila</h3>
+          <p>Aplicación en Java que crea, analiza y simula autómatas de pila de forma interactiva.</p>
+          <p><strong>Tecnologías:</strong> Java</p>
+          <a href="https://github.com/Nicolas-Florez/Generador_AutomatasDePila" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-calculator"></i> EcuaDif Web</h3>
+          <p>Página educativa sobre aplicaciones de ecuaciones diferenciales, desarrollada con HTML, CSS y JavaScript.</p>
           <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
-          <a href="https://github.com/Nicolas-Florez/Project_HTML_CSS_FLOREZ_NICOLAS" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://github.com/Nicolas-Florez/Ecuadif" target="_blank"><i class="fab fa-github"></i> GitHub</a>
         </div>
         <div class="card">
-          <h3><i class="fas fa-heart"></i> MotivaApp - Plataforma Motivacional</h3>
-          <p>💡 Página motivacional que muestra frases diarias según el calendario. Incluye juegos didácticos como ruleta de frases y sistema de recompensas con logros y rachas desbloqueables.</p>
+          <h3><i class="fas fa-robot"></i> Chatbot Gamer</h3>
+          <p>API REST con FastAPI que implementa un chatbot especializado en videojuegos, capaz de responder consultas y recomendaciones.</p>
+          <p><strong>Tecnologías:</strong> Python, FastAPI</p>
+          <a href="https://github.com/Nicolas-Florez/Chatbot_Gamer" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-heart"></i> MotivaApp</h3>
+          <p>Web app interactiva con frases diarias, minijuegos y sistema de logros, usando HTML, CSS, JS y LocalStorage para persistencia.</p>
           <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, LocalStorage</p>
-          <a href="https://github.com/Nicolas-Florez/Oracundario-Nicolas-Florez" target="_blank"><i class="fab fa-github"></i> GitHub</a> |
-          <a href="https://nicolas-florez.github.io/Oracundario-Nicolas-Florez/" target="_blank">🌐 Demo</a>
+          <a href="https://github.com/Nicolas-Florez/Oracundario-Nicolas-Florez" target="_blank"><i class="fab fa-github"></i> GitHub</a> 
+          
         </div>
         <div class="card">
-          <h3><i class="fas fa-user-graduate"></i> Mentorium - App Académica</h3>
-          <p>🎓 Aplicación para conectar estudiantes con mentores/profesores. Permite agendar asesorías, gestionar materias y evaluar sesiones. Implementa lógica de base de datos y modelo relacional completo.</p>
-          <p><strong>Tecnologías:</strong> Java, React, MySQL</p>
-        </div>
-        <div class="card">
-          <h3><i class="fas fa-film"></i> Buscador de Películas</h3>
-          <p>🎬 Aplicación web que permite buscar películas usando la API de TMDB. Muestra pósters, sinopsis, trailers y filtros por género, año y calificación.</p>
-          <p><strong>Tecnologías:</strong> JavaScript, HTML, CSS, TMDB API</p>
-          <a href="https://github.com/Nicolas-Florez/searchMovies_Florez_Nicolas" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          <h3><i class="fas fa-shield-alt"></i> JwtCors</h3>
+          <p>Sistema de autenticación completo con Spring Boot y JWT, roles, rutas protegidas y frontend en JavaScript con manejo seguro de tokens.</p>
+          <p><strong>Tecnologías:</strong> Spring Boot, JWT, JavaScript</p>
+          <a href="https://github.com/Nicolas-Florez/JWT_CORS" target="_blank"><i class="fab fa-github"></i> GitHub</a>
         </div>
       </div>
     </section>
 
-    <section id="blog">
-      <h2><i class="fas fa-blog"></i> Blog</h2>
-      <div class="card">
-        <h3>📝 Próximamente</h3>
-        <p>Muy pronto compartiré artículos y recursos sobre desarrollo, tecnología y aprendizaje continuo.</p>
-        <blockquote style="margin-top:1.5em; font-style:italic; color:#3b82f6; border-left:4px solid #3b82f6; padding-left:1em;">
-          “Si puedes imaginarlo puedes programarlo”<br>
-          <span style="color:#f5f5f5; font-size:0.98em;">by Programacion ATS, uno de mis mayores inspiraciones en el mundo de la programación</span>
-        </blockquote>
+    <section id="educacion">
+      <h2><i class="fas fa-graduation-cap"></i> Educación</h2>
+      <div class="education-timeline">
+        <div class="education-item">
+          <div class="education-year-wrapper">
+            <div class="education-year">2023</div>
+            <div class="education-icon">
+              <i class="fas fa-school"></i>
+            </div>
+          </div>
+          <div class="education-content">
+            <div class="education-badge">Bachillerato</div>
+            <h3>Bachiller Técnico</h3>
+            <div class="education-details">
+              <p><i class="fas fa-university"></i> <strong>Institución:</strong> Institución Educativa La Divina Pastora</p>
+            </div>
+          </div>
+        </div>
+        <div class="education-item">
+          <div class="education-year-wrapper">
+            <div class="education-year">2024 - Actualidad</div>
+            <div class="education-icon">
+              <i class="fas fa-university"></i>
+            </div>
+          </div>
+          <div class="education-content">
+            <div class="education-badge active">En Curso</div>
+            <h3>Ingeniería de Sistemas</h3>
+            <div class="education-details">
+              <p><i class="fas fa-university"></i> <strong>Institución:</strong> Universidad Francisco de Paula Santander</p>
+              <p><i class="fas fa-calendar-check"></i> <strong>Inicio:</strong> Marzo 2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="education-item">
+          <div class="education-year-wrapper">
+            <div class="education-year">2025</div>
+            <div class="education-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+          </div>
+          <div class="education-content">
+            <div class="education-badge upcoming">FINALIZADO</div>
+            <h3>Técnico en Desarrollo de Software</h3>
+            <div class="education-details">
+              <p><i class="fas fa-university"></i> <strong>Institución:</strong> Instituto Técnico Medical Duarte - Campusland</p>
+              <p><i class="fas fa-calendar-alt"></i> <strong>Duración:</strong> Febrero 2025 - Diciembre 2025</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
+    <section id="servicios">
+      <h2><i class="fas fa-briefcase"></i> Servicios</h2>
+      <div class="grid">
+        <div class="card service-card">
+          <h3><i class="fas fa-globe"></i> Desarrollo de Aplicaciones Web</h3>
+          <p>Desarrollo de aplicaciones web personalizadas y escalables utilizando tecnologías modernas como Spring Boot.</p>
+        </div>
+        <div class="card service-card">
+          <h3><i class="fas fa-mobile-alt"></i> Desarrollo de Aplicaciones Móviles</h3>
+          <p>Creación de aplicaciones móviles para las plataformas iOS y Android utilizando marcos de trabajo como React Native.</p>
+        </div>
+        <div class="card service-card">
+          <h3><i class="fas fa-plug"></i> Desarrollo de API</h3>
+          <p>Diseño y desarrollo de API eficientes y seguras para facilitar la comunicación entre diferentes sistemas y aplicaciones.</p>
+        </div>
+        <div class="card service-card">
+          <h3><i class="fas fa-lightbulb"></i> Consultoría Tecnológica</h3>
+          <p>Asesoramiento tecnológico experto para ayudar a las empresas a tomar decisiones informadas sobre arquitectura de software, selección de tecnología y estrategias de desarrollo.</p>
+        </div>
+        <div class="card service-card">
+          <h3><i class="fas fa-tachometer-alt"></i> Optimización del Rendimiento</h3>
+          <p>Identificación y resolución de cuellos de botella en el rendimiento de las aplicaciones existentes para mejorar la velocidad y la eficiencia.</p>
+        </div>
+        <div class="card service-card">
+          <h3><i class="fas fa-tools"></i> Soporte y Mantenimiento</h3>
+          <p>Servicios de soporte y mantenimiento continuos para garantizar el funcionamiento óptimo de las aplicaciones y los sistemas desarrollados.</p>
+        </div>
+      </div>
+    </section>
+
 
     <section id="contacto">
       <h2><i class="fas fa-envelope"></i> Contacto</h2>
-      <ul class="contact-list">
-        <li><a href="https://wa.me/573208371666" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp: 320 83 71 666</a></li>
-        <li><a href="mailto:nicolas.ravens8@gmail.com" class="email"><i class="fas fa-envelope"></i> nicolas.ravens8@gmail.com</a></li>
-        <li><a href="https://github.com/Nicolas-Florez" target="_blank" class="github"><i class="fab fa-github"></i> github.com/Nicolas-Florez</a></li>
-        <li><a href="https://www.linkedin.com/in/nicolas-oswaldo-florez-duarte-566bb7305/" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-      </ul>
-      <form>
-        <input type="text" placeholder="Tu nombre" required />
-        <input type="email" placeholder="Tu correo" required />
-        <textarea placeholder="Tu mensaje" required></textarea>
-        <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
-      </form>
+      
+      <div class="contact-wrapper">
+        <div class="contact-methods">
+          <h3><i class="fas fa-comments"></i> ¡Hablemos!</h3>
+          <p class="contact-subtitle">Estoy disponible para proyectos, colaboraciones o simplemente para charlar sobre tecnología.</p>
+          
+          <div class="contact-cards">
+            <a href="https://wa.me/573208371666" target="_blank" class="contact-card whatsapp-card">
+              <div class="contact-card-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div class="contact-card-content">
+                <h4>WhatsApp</h4>
+                <p>320 83 71 666</p>
+                <span class="contact-card-action">Enviar mensaje <i class="fas fa-arrow-right"></i></span>
+              </div>
+            </a>
+            
+            <a href="mailto:nicolas.ravems8@gmail.com" class="contact-card email-card">
+              <div class="contact-card-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-card-content">
+                <h4>Email</h4>
+                <p>nicolas.ravems8@gmail.com</p>
+                <span class="contact-card-action">Enviar correo <i class="fas fa-arrow-right"></i></span>
+              </div>
+            </a>
+            
+            <a href="https://github.com/Nicolas-Florez" target="_blank" class="contact-card github-card">
+              <div class="contact-card-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="contact-card-content">
+                <h4>GitHub</h4>
+                <p>github.com/Nicolas-Florez</p>
+                <span class="contact-card-action">Ver perfil <i class="fas fa-arrow-right"></i></span>
+              </div>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/nicolas-oswaldo-florez-duarte-566bb7305/" target="_blank" class="contact-card linkedin-card">
+              <div class="contact-card-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="contact-card-content">
+                <h4>LinkedIn</h4>
+                <p>Conectar profesionalmente</p>
+                <span class="contact-card-action">Ver perfil <i class="fas fa-arrow-right"></i></span>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="contact-form-wrapper">
+          <h3><i class="fas fa-paper-plane"></i> Envíame un mensaje</h3>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name"><i class="fas fa-user"></i> Nombre</label>
+              <input type="text" id="name" name="name" placeholder="Tu nombre completo" required />
+            </div>
+            
+            <div class="form-group">
+              <label for="email"><i class="fas fa-envelope"></i> Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+            </div>
+            
+            <div class="form-group">
+              <label for="message"><i class="fas fa-comment-alt"></i> Mensaje</label>
+              <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí..." rows="6" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">
+              <span class="btn-text">Enviar Mensaje</span>
+              <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+            </button>
+          </form>
+        </div>
+      </div>
     </section>
   </main>
 
